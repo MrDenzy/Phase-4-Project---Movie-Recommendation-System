@@ -201,15 +201,17 @@ Implementing these enhancements would move the system from a predictive model to
 ## Repository Structure
 ```
 ├── data/
-├── images/
-|   └── 
+├── output/
+├── Powerpoint/
+│   └──  Group 5 Movie Recommendation System.pdf
+│   ├──  Group 5 Movie Recommendation System.pptx
 ├── notebooks/
-│   └── main.ipynb
-|   ├── olonde.ipynb
+│   └── Main.ipynb
+|   ├── blex.ipynb
 |   ├──jasho.ipynb
 |   ├──shem.ipynb
 |   ├──vkones.ipynb
-|   └── dennis.ipynb
+|   └──dennis.ipynb
 └── README.md
 
 
