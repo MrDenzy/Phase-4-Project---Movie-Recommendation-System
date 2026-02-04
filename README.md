@@ -7,6 +7,8 @@ A production-style movie recommendation engine built using collaborative filteri
 
 The system compares multiple approaches (KNN, Matrix Factorization, NMF) and selects the best performing model based on prediction accuracy.
 
+![alt text](<output/mov_img.jpg>)
+
 ---
 
 ## 📌 Project Overview
