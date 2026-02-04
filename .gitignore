@@ -1,8 +1,62 @@
-# Ignore the data folder
-data/
+# ----------------------------
+# Python / Data Science
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
 
-# Ignore all PNG files
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ----------------------------
+# Data files (keep small samples only)
+# ----------------------------
+data/*.csv
+data/*.tsv
+data/*.xlsx
+data/*.json
+data/*.parquet
+data/*.zip
+
+
+
+# ----------------------------
+# Outputs / Generated files
+# ----------------------------
+output/
 *.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
 
-# Ignore all Python pickle files
-*.pkl
+
+
+# ----------------------------
+# Logs & temp files
+# ----------------------------
+*.log
+*.tmp
+*.bak
+
+# ----------------------------
+# OS / Editor clutter
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# ----------------------------
+# Environment variables / secrets
+# ----------------------------
+.env
+.env.*
