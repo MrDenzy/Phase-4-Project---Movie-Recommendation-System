@@ -59,7 +59,7 @@ MovieLens dataset:
 ## 🔍 Exploratory Data Analysis (EDA)
 
 ### Rating Distribution
-![Rating Distribution](images/rating_distribution.png)
+![alt text](image-4.png)
 
 **Insight:**  
 Ratings are skewed toward positive values (3–5 stars), confirming implicit positive feedback bias.
@@ -73,7 +73,7 @@ Users are more likely to rate movies they enjoyed, which introduces **positive b
 - Small minority of users are highly active
 *Number of ratings per user*
 
-![User Activity](images/user_activity.png)
+![alt text](image-7.png)
 
 
 **Insight:**  
@@ -87,7 +87,7 @@ Most users interact with very few movies, creating a cold-start challenge.
 
 *Ratings per movie*
 
-![Movie Popularity](images/movie_popularity.png)
+![alt text](image-5.png)
 
 **Insight:**  
 Few movies dominate interactions while most receive very few ratings — classic long-tail problem.
@@ -141,7 +141,7 @@ SVD captures hidden user preferences and generalizes best.
 
 *Residual error plot*
 
-![Error Distribution](images/error_distribution.png)
+![alt text](image-6.png)
 
 **Insight:**  
 Model performs well for common ratings but struggles with extreme preferences.
