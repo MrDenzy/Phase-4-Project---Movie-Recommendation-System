@@ -199,7 +199,8 @@ To further improve system performance and production readiness:
 Implementing these enhancements would move the system from a predictive model to a fully production-ready personalization engine.
 
 
-## 
+## Repository Structure
+```
 ├── data/
 ├── images/
 |   └── 
@@ -210,6 +211,6 @@ Implementing these enhancements would move the system from a predictive model to
 |   ├──shem.ipynb
 |   ├──vkones.ipynb
 |   └── dennis.ipynb
-├── README.md
+└── README.md
 
 
