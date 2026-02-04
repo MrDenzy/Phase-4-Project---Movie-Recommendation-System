@@ -59,7 +59,7 @@ MovieLens dataset:
 ## 🔍 Exploratory Data Analysis (EDA)
 
 ### Rating Distribution
-[![alt text](image-4.png)](https://github.com/MrDenzy/Phase-4-Project---Movie-Recommendation-System/blob/shem/output/image%20(5).png?raw=true)
+![alt text](<Distribution of Users and Ratings.png>)
 
 **Insight:**  
 Ratings are skewed toward positive values (3–5 stars), confirming implicit positive feedback bias.
@@ -73,8 +73,7 @@ Users are more likely to rate movies they enjoyed, which introduces **positive b
 - Small minority of users are highly active
 *Number of ratings per user*
 
-[![alt text](image-7.png)](https://github.com/MrDenzy/Phase-4-Project---Movie-Recommendation-System/blob/shem/output/image%20(1).png?raw=true)
-
+![alt text](<image (1).png>)
 
 **Insight:**  
 Most users interact with very few movies, creating a cold-start challenge.
@@ -87,7 +86,7 @@ Most users interact with very few movies, creating a cold-start challenge.
 
 *Ratings per movie*
 
-[![alt text](image-5.png)](https://github.com/MrDenzy/Phase-4-Project---Movie-Recommendation-System/blob/shem/output/image%20(6).png?raw=true)
+![alt text](<image (6).png>)
 
 **Insight:**  
 Few movies dominate interactions while most receive very few ratings — classic long-tail problem.
@@ -141,7 +140,7 @@ SVD captures hidden user preferences and generalizes best.
 
 *Residual error plot*
 
-[![alt text](image-6.png)](https://github.com/MrDenzy/Phase-4-Project---Movie-Recommendation-System/blob/shem/output/image%20(3).png?raw=true)
+![alt text](<ERROR ANALYSIS.png>)
 
 **Insight:**  
 Model performs well for common ratings but struggles with extreme preferences.
