@@ -1,0 +1,8 @@
+# Ignore the data folder
+data/
+
+# Ignore all PNG files
+*.png
+
+# Ignore all Python pickle files
+*.pkl
